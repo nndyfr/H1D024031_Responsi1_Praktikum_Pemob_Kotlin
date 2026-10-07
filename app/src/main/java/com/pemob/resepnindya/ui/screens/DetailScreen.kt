@@ -1,7 +1,6 @@
 package com.pemob.resepnindya.ui.screens
 
 import android.content.Intent
-import android.net.Uri
 import androidx.core.net.toUri
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -196,23 +195,19 @@ fun DetailContent(meal: Meal) {
                     }
                 }
                 
-                Spacer(modifier = Modifier.height(16.dp))
-                val context = LocalContext.current
-                val youtubeUrl = if (!meal.strYoutube.isNullOrBlank()) {
-                    meal.strYoutube
-                } else {
-                    "https://www.youtube.com/results?search_query=${Uri.encode(meal.strMeal ?: "Recipe")}"
-                }
-                
-                Button(
-                    onClick = {
-                        val intent = Intent(Intent.ACTION_VIEW, youtubeUrl.toUri())
-                        context.startActivity(intent)
-                    },
-                    modifier = Modifier.fillMaxWidth(),
-                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFE52D27)) // YouTube Red
-                ) {
-                    Text("Tonton Tutorial di YouTube")
+                if (!meal.strYoutube.isNullOrBlank()) {
+                    Spacer(modifier = Modifier.height(16.dp))
+                    val context = LocalContext.current
+                    Button(
+                        onClick = {
+                            val intent = Intent(Intent.ACTION_VIEW, meal.strYoutube.toUri())
+                            context.startActivity(intent)
+                        },
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFE52D27)) // YouTube Red
+                    ) {
+                        Text("Tonton Tutorial di YouTube")
+                    }
                 }
 
                 Spacer(modifier = Modifier.height(24.dp))

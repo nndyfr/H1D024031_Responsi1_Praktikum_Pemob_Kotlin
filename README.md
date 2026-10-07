@@ -39,7 +39,6 @@ ResepNindya adalah aplikasi mobile yang dikembangkan untuk membantu pengguna men
 ### ⭐ Nilai Tambah (Bonus Features)
 1. **Kategori Chip Filter (Home Screen)**: Memudahkan pengguna memfilter masakan berdasarkan kategori populer (*Chicken, Beef, Seafood, Dessert, Pasta*) tanpa harus mengetik manual di kolom pencarian.
 2. **Tombol Tutorial Video YouTube (Detail Screen)**: Memanfaatkan data `strYoutube` dari TheMealDB API. Pengguna bisa langsung menekan tombol merah untuk membuka video panduan memasak langsung di aplikasi YouTube.
-3. **Pencarian YouTube Otomatis**: Jika resep tidak memiliki tautan video YouTube langsung dari API, tombol YouTube secara cerdas menyediakan fitur pencarian otomatis di YouTube berdasarkan nama resep.
 
 ### 3. Struktur Direktori Proyek
 ```text
