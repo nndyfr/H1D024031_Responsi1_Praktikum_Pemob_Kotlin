@@ -6,9 +6,9 @@
 ## 👤 Identitas Praktikan
 - **Nama Lengkap:** Nindya Alif Romland
 - **NIM:** H1D024031
-- **Shift Awal:** Shift D
-- **Shift Akhir:** Shift E
-- **Link Video Demo/Penjelasan:** [Isi Link YouTube/Google Drive Kamu](https://...)
+- **Shift Awal:** D
+- **Shift Akhir:** E
+- **Link Video Demo/Penjelasan:** [Tonton Video Demo & Penjelasan di YouTube](https://youtu.be/Fc1kcrF2nr0)
 
 ---
 
