@@ -8,7 +8,7 @@
 - **NIM:** H1D024031
 - **Shift Awal:** Shift D
 - **Shift Akhir:** Shift E
-- **Link Video Demo/Penjelasan:** [Tonton Video Demo & Penjelasan di YouTube](https://youtu.be/Fc1kcrF2nr0)
+- **Link Video Demo/Penjelasan:** [Isi Link YouTube/Google Drive Kamu](https://...)
 
 ---
 
@@ -36,7 +36,7 @@ ResepNindya adalah aplikasi mobile yang dikembangkan untuk membantu pengguna men
 - **Search Recipe (Pencarian):** Fitur pencarian resep langsung berdasarkan nama makanan. ViewModel akan memantau ketikan (*query*) dan meminta data baru secara asinkron dari Repositori melalui Retrofit.
 - **Detail Recipe Screen:** Menampilkan informasi resep komprehensif, mencakup gambar masakan ukuran besar, kategori, asal negara, instruksi memasak, serta kombinasi bahan masakan (Ingredient) dan takarannya (Measure).
 
-### ⭐ Nilai Tambah (Bonus Features)
+### Nilai Tambah (Bonus Features)
 1. **Kategori Chip Filter (Home Screen)**: Memudahkan pengguna memfilter masakan berdasarkan kategori populer (*Chicken, Beef, Seafood, Dessert, Pasta*) tanpa harus mengetik manual di kolom pencarian.
 2. **Tombol Tutorial Video YouTube (Detail Screen)**: Memanfaatkan data `strYoutube` dari TheMealDB API. Pengguna bisa langsung menekan tombol merah untuk membuka video panduan memasak langsung di aplikasi YouTube.
 
