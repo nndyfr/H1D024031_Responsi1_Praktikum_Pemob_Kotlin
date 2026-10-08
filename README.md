@@ -72,9 +72,7 @@ Digunakan pada Recipe Detail Screen untuk mengambil informasi detail resep spesi
 
 | Home Screen (Katalog) | Pencarian (Search) | Detail Screen |
 |:---:|:---:|:---:|
-| ![Home](docs/home.png) | ![Search](docs/search.png) | ![Detail](docs/detail.png) |
-
-*(Ganti `docs/home.png`, `docs/search.png`, dan `docs/detail.png` dengan screenshot asli aplikasimu)*
+| ![Home](docs/home.jpeg) | ![Search](docs/search.jpeg) | ![Detail](docs/detail.jpeg) |
 
 ---
 
