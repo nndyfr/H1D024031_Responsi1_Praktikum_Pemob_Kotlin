@@ -55,6 +55,11 @@ app/src/main/java/com/pemob/resepnindya/
 └── MainActivity.kt # Entry point dari aplikasi
 ```
 
+### 4. Penjelasan API yang Digunakan
+Aplikasi ini menggunakan **TheMealDB API** (Public REST API) yang tidak memerlukan API Key untuk penggunaan dasar. Endpoint utama yang digunakan:
+- **Search Recipe**: `https://www.themealdb.com/api/json/v1/1/search.php?s={nama_makanan}` — Digunakan pada fitur pencarian dan kategori di Home Screen untuk mengambil daftar resep berdasarkan keyword atau nama makanan.
+- **Detail Recipe**: `https://www.themealdb.com/api/json/v1/1/lookup.php?i={id_recipe}` — Digunakan pada Recipe Detail Screen untuk mengambil informasi detail resep spesifik berdasarkan ID makanan.
+
 ---
 
 ## 📸 Tangkapan Layar (Screenshots)
